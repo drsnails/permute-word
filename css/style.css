@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.permute {
+    position: relative;
+    left: 50vw;
+    margin-block-start: 4vh;
+
+    & span {
+        cursor: pointer;
+        font-size: 1.4em;
+        color: rgb(77, 77, 77);
+    }
+}
+
+.hide {
+    visibility: hidden;
+}
